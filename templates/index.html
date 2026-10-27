@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Birhanu Smart Website - Electrical and Computer Engineering, professional CV, Smart Technology and Innovation.">
+
+    <title>Birhanu Smart | Engineering & Innovation</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">BIRHANU <span>SMART</span></a>
+
+    <button class="menu-btn" id="menuBtn"
+            aria-label="Open navigation"
+            aria-expanded="false">☰</button>
+
+    <nav id="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#department">Department</a>
+        <a href="#cv">My CV</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tag">TECHNOLOGY • ENGINEERING • LEADERSHIP</p>
+
+            <h1>Welcome to <span>Birhanu Smart</span></h1>
+
+            <h2>Birhanu Workineh</h2>
+
+            <h3>Electrical and Computer Engineering</h3>
+
+            <p>
+                Exploring Smart Technology, Artificial Intelligence,
+                Software Development, Digital Transformation and
+                Smart Home Automation.
+            </p>
+
+            <a href="#about" class="button">Explore My Profile</a>
+            <a href="#cv" class="button secondary">View My CV</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <p class="tag">WHO I AM</p>
+        <h2>About Me</h2>
+
+        <div class="content-box">
+            <p>
+                My name is Birhanu Workineh. My academic background
+                is Electrical and Computer Engineering.
+            </p>
+
+            <p>
+                My interests include engineering innovation,
+                smart technology, software development, digital
+                systems and professional leadership.
+            </p>
+
+            <p>
+                My vision is to use technology and innovation
+                to solve practical problems and support development.
+            </p>
+        </div>
+    </section>
+
+    <!-- DEPARTMENT -->
+    <section class="section alternate" id="department">
+        <p class="tag">ACADEMIC BACKGROUND</p>
+        <h2>Electrical and Computer Engineering</h2>
+
+        <div class="grid">
+
+            <article class="card">
+                <div class="card-icon">⚡</div>
+                <h3>Electrical Engineering</h3>
+                <p>
+                    Electrical systems, circuits, power technology
+                    and control systems.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">💻</div>
+                <h3>Computer Engineering</h3>
+                <p>
+                    Computer systems, programming, hardware
+                    and embedded technology.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🤖</div>
+                <h3>Artificial Intelligence</h3>
+                <p>
+                    Intelligent systems, AI applications
+                    and digital innovation.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🏠</div>
+                <h3>Smart Home Automation</h3>
+                <p>
+                    Smart devices, sensors and automated
+                    home control systems.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section class="section" id="cv">
+        <p class="tag">PROFESSIONAL PROFILE</p>
+        <h2>My Curriculum Vitae</h2>
+
+        <div class="cv-box">
+            <h3>Birhanu Workineh</h3>
+
+            <p>
+                <strong>Academic Department:</strong>
+                Electrical and Computer Engineering
+            </p>
+
+            <p>
+                <strong>Professional Experience:</strong>
+                Cooperative Development, Finance, Administration,
+                Communication and Economic Management.
+            </p>
+
+            <h3>Work Experience</h3>
+
+            <ul class="experience-list">
+                <li>
+                    <strong>Cooperative Development</strong>
+                    <p>Deputy Head, Cooperative Development Office,
+                    Sululta District.</p>
+                </li>
+
+                <li>
+                    <strong>Finance</strong>
+                    <p>Senior Advisor, Finance Office,
+                    Sululta District.</p>
+                </li>
+
+                <li>
+                    <strong>Administration</strong>
+                    <p>Deputy Head, Administration Office and
+                    District Cabinet Affairs, Sululta.</p>
+                </li>
+
+                <li>
+                    <strong>Communication</strong>
+                    <p>Head of Communication Office,
+                    Sululta District.</p>
+                </li>
+
+                <li>
+                    <strong>Local Administration</strong>
+                    <p>Local administration leadership experience.</p>
+                </li>
+
+                <li>
+                    <strong>Economic Management</strong>
+                    <p>Economic Affairs Office, Waajjuu Daalotaa Ganda.</p>
+                </li>
+            </ul>
+
+            <p class="note">
+                Note: Please verify all official job titles,
+                employment dates and qualifications before
+                publishing your final CV.
+            </p>
+
+            <button class="button" onclick="window.print()">
+                Print / Save CV as PDF
+            </button>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section alternate" id="projects">
+        <p class="tag">INNOVATION & DEVELOPMENT</p>
+        <h2>Smart Projects</h2>
+
+        <div class="grid">
+
+            <article class="card">
+                <h3>Smart Home Automation</h3>
+                <p>
+                    A project concept for controlling home devices
+                    using sensors, electronics and smart systems.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Birhanu Smart Website</h3>
+                <p>
+                    A professional digital platform built with
+                    HTML, CSS, JavaScript and Python Flask.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Digital Management Systems</h3>
+                <p>
+                    Digital tools for information management,
+                    leadership and decision support.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <p class="tag">GET IN TOUCH</p>
+        <h2>Contact Me</h2>
+
+        <div class="content-box">
+            <p>
+                I welcome professional collaboration,
+                engineering projects and technology discussions.
+            </p>
+
+            <p>
+                <strong>Professional Email:</strong>
+                Add your email address here.
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/birhanuworkineh9"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My GitHub Profile
+                </a>
+            </p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© <span id="year">2026</span> Birhanu Smart Website</p>
+    <p>Technology • Engineering • Innovation</p>
+</footer>
+
+</body>
+</html>
