@@ -1,6 +1,5 @@
 
 from flask import Flask, render_template
-import os
 
 app = Flask(__name__)
 
@@ -10,7 +9,8 @@ def home():
 
 @app.route("/health")
 def health():
-    return {"status": "ok", "website": "Birhanu Smart"}
+    return {"status": "ok"}
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
+
